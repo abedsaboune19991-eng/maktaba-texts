@@ -80,7 +80,7 @@ def process(book, outdir):
         gz = gzip.compress(data, 9)
         with open(os.path.join(outdir, "texts", book["id"] + ".txt.gz"), "wb") as f:
             f.write(gz)
-        meta = {"id": book["id"], "p": npages, "m": mode, "b": len(gz), "o": len(need), "rev": reversed_}
+        meta = {"id": book["id"], "p": npages, "m": mode, "b": len(gz), "o": len(need), "rev": reversed_, "v": 2}
     except Exception as e:
         meta = {"id": book["id"], "m": "err", "e": str(e)[:200]}
     finally:

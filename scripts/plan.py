@@ -1,11 +1,23 @@
 """يحدد الكتب التي تحتاج استخراج نصوصها ويقسمها على أجزاء تُعالَج بالتوازي."""
-import json, os, subprocess, sys, urllib.request
-from common import book_id
+import gzip, json, os, subprocess, sys, urllib.request
+from common import book_id, letters
 
 SOURCE = os.environ.get("SOURCE_URL", "https://abedelkareem1989.github.io/Islamicculture/4.index.html")
 SHARDS = int(os.environ.get("SHARDS", "20"))
 LIMIT = int(os.environ.get("LIMIT", "0") or 0)
 MAX_RETRY = 3
+
+def broken(bid):
+    """هل في نص الكتب المستخرج سابقًا صفحات كثيرة مكسورة الحروف؟"""
+    f = os.path.join("texts", bid + ".txt.gz")
+    if not os.path.exists(f): return False
+    bad = total = 0
+    for p in gzip.open(f).read().decode("utf-8").split("\f"):
+        ws = [w for w in (letters(x) for x in p.split()) if w]
+        if len(ws) < 30: continue
+        total += 1
+        if sum(1 for w in ws if len(w) <= 1) / len(ws) > 0.25: bad += 1
+    return total > 0 and bad / total > 0.1
 
 def main():
     req = urllib.request.Request(SOURCE + "?t=1", headers={"User-Agent": "Mozilla/5.0"})
@@ -24,6 +36,8 @@ def main():
     for b in allb:
         e = man["books"].get(b["id"])
         if e is None or (e.get("m") == "err" and e.get("r", 0) < MAX_RETRY):
+            todo.append(b)
+        elif e.get("m") in ("text", "mixed") and e.get("v", 1) < 2 and broken(b["id"]):
             todo.append(b)
     if LIMIT: todo = todo[:LIMIT]
     os.makedirs("work", exist_ok=True)
