@@ -1,5 +1,5 @@
 """يحمّل كتب جزء واحد، ويستخرج نص كل صفحة: من طبقة النص إن وُجدت، وإلا بالتعرّف الضوئي (OCR)."""
-import gzip, json, os, re, shutil, subprocess, sys, tempfile, time, unicodedata, urllib.request
+import gzip, json, os, re, shutil, subprocess, sys, tempfile, time, unicodedata, urllib.parse, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from common import letters
 
@@ -15,8 +15,11 @@ def direct(link):
     if m: return f"https://drive.usercontent.google.com/download?id={m.group(1)}&export=download&confirm=t"
     return link
 
+def safe_url(url):
+    return urllib.parse.quote(url.strip(), safe=":/?&=%#@+,;~!$'()*[]")
+
 def download(url, dest):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
+    req = urllib.request.Request(safe_url(url), headers={"User-Agent": UA, "Accept": "*/*"})
     with urllib.request.urlopen(req, timeout=120) as r, open(dest, "wb") as f:
         shutil.copyfileobj(r, f, 1 << 20)
     with open(dest, "rb") as f:
