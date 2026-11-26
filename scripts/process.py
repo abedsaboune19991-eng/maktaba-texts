@@ -42,10 +42,15 @@ def fix_reversed(pages):
         return ["\n".join(line[::-1] for line in p.split("\n")) for p in pages], True
     return pages, False
 
+def fragmented(t):
+    """طبقة نص مكسورة: حروف متفرقة بدل كلمات (شائع في الكتب المشكولة)."""
+    ws = [w for w in (letters(x) for x in t.split()) if w]
+    return len(ws) >= 30 and sum(1 for w in ws if len(w) <= 1) / len(ws) > 0.25
+
 def good_text(t):
     ar = len(AR.findall(t))
     other = len(re.findall(r"[A-Za-zÀ-ɏ]", t))
-    return ar >= 40 and ar > 2 * other
+    return ar >= 40 and ar > 2 * other and not fragmented(t)
 
 def ocr_page(pdf, n, tmp):
     base = os.path.join(tmp, f"p{n}")
@@ -80,7 +85,7 @@ def process(book, outdir):
         gz = gzip.compress(data, 9)
         with open(os.path.join(outdir, "texts", book["id"] + ".txt.gz"), "wb") as f:
             f.write(gz)
-        meta = {"id": book["id"], "p": npages, "m": mode, "b": len(gz), "o": len(need), "rev": reversed_, "v": 2}
+        meta = {"id": book["id"], "p": npages, "m": mode, "b": len(gz), "o": len(need), "rev": reversed_, "v": 3}
     except Exception as e:
         meta = {"id": book["id"], "m": "err", "e": str(e)[:200]}
     finally:
