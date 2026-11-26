@@ -1,0 +1,93 @@
+name: Build text index
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "أقصى عدد من الكتب في هذا التشغيل (0 = الكل)"
+        required: false
+        default: "0"
+  push:
+    branches: [main]
+    paths: [library.json, scripts/**, .github/workflows/index.yml]
+  schedule:
+    - cron: "17 2 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: index
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      has_work: ${{ steps.plan.outputs.has_work }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: plan
+        env:
+          LIMIT: ${{ github.event.inputs.limit || '0' }}
+        run: python3 scripts/plan.py
+      - uses: actions/upload-artifact@v4
+        if: steps.plan.outputs.has_work == 'true'
+        with:
+          name: plan
+          path: work/
+
+  process:
+    needs: plan
+    if: needs.plan.outputs.has_work == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        shard: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts
+      - uses: actions/download-artifact@v4
+        with:
+          name: plan
+          path: work/
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-ara >/dev/null
+      - name: Extract text
+        env:
+          TIME_BUDGET: "18000"
+          OMP_THREAD_LIMIT: "1"
+        run: cd scripts && python3 process.py ../work/shard_${{ matrix.shard }}.json ../out
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: out-${{ matrix.shard }}
+          path: out/
+          if-no-files-found: ignore
+
+  merge:
+    needs: [plan, process]
+    if: always() && needs.plan.outputs.has_work == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: out-*
+          path: results/
+      - name: Merge and commit
+        run: |
+          python3 scripts/merge.py results
+          git config user.name "maktaba-bot"
+          git config user.email "maktaba-bot@users.noreply.github.com"
+          git add texts manifest.json
+          git diff --cached --quiet && exit 0
+          git commit -m "تحديث فهرس نصوص الكتب"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
