@@ -64,9 +64,10 @@
 "t": "بغية المحتاج في العقيدة والأحكام"
 },
 "b19cf56c3": {
-"e": "'ascii' codec can't encode characters in position 32-38: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 192281,
+"m": "mixed",
+"o": 2,
+"p": 204,
 "t": "الإبداع في معاني خطبة الوداع"
 },
 "b1a00cd96": {
@@ -84,9 +85,10 @@
 "t": "العقيدة النسفية"
 },
 "b1d91e58d": {
-"e": "'ascii' codec can't encode characters in position 32-34: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 74294,
+"m": "ocr",
+"o": 129,
+"p": 129,
 "t": "شرح الصدر في إثبات عذاب القبر"
 },
 "b1e3381a5": {
@@ -104,15 +106,16 @@
 "t": "عقيدة المسلمين (مقررة بجامعة الأزهر)"
 },
 "b1ef01d90": {
-"e": "'ascii' codec can't encode characters in position 32-34: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 22074,
+"m": "mixed",
+"o": 1,
+"p": 15,
 "t": "نيل المرام في الوارد في اللحم والشحم من الأحكام"
 },
 "b1f160401": {
 "e": "HTTP Error 404: Not Found",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "التفسير الاسمى لقوله تعالى ثم دنا فتدلى"
 },
 "b201b3307": {
@@ -123,15 +126,17 @@
 "t": "المولد الجامع المانع"
 },
 "b2048bd6b": {
-"e": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 220395,
+"m": "ocr",
+"o": 287,
+"p": 287,
 "t": "إفادة الأنام بشرح عقيدة العوام"
 },
 "b2084747a": {
-"e": "'ascii' codec can't encode characters in position 32-38: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 232566,
+"m": "mixed",
+"o": 3,
+"p": 337,
 "t": "التفسير الأسمى لقوله تعالى ثم دنا فتدلى"
 },
 "b20a3767e": {
@@ -198,9 +203,10 @@
 "t": "حل ألفاظ تحفة الأطفال"
 },
 "b29c9adca": {
-"e": "'ascii' codec can't encode characters in position 32-34: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 58849,
+"m": "ocr",
+"o": 118,
+"p": 118,
 "t": "زهر الجنان في جواز الإحتفال بليلة النصف من شعبان"
 },
 "b29fbf87a": {
@@ -211,15 +217,16 @@
 "t": "الكشف الجلي لحقيقة المشبهة"
 },
 "b2a1b1141": {
-"e": "'ascii' codec can't encode characters in position 32-38: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 3434,
+"m": "ocr",
+"o": 11,
+"p": 11,
 "t": "أدلة المؤمنين"
 },
 "b2ae09339": {
 "e": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "نصيحة الذهبي إلى ابن تيمية"
 },
 "b2b476e4d": {
@@ -230,9 +237,10 @@
 "t": "الثقافة الإسلامية - المذهب الشافعي - الجزء الرابع"
 },
 "b2b88742c": {
-"e": "'ascii' codec can't encode characters in position 32-34: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 275380,
+"m": "mixed",
+"o": 362,
+"p": 478,
 "t": "أنس المتقين ولذة العابدين"
 },
 "b2ca5dd35": {
@@ -243,9 +251,10 @@
 "t": "الجامع المنير في مولد الهادي البشير"
 },
 "b2da17715": {
-"e": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 80682,
+"m": "ocr",
+"o": 143,
+"p": 143,
 "t": "إضاءة المنارة على صحة أو حسن حديث الزيارة"
 },
 "b2f4951ef": {
@@ -256,9 +265,10 @@
 "t": "رسالة"
 },
 "b300f663c": {
-"e": "'ascii' codec can't encode characters in position 32-34: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 93415,
+"m": "ocr",
+"o": 139,
+"p": 139,
 "t": "عقد اللآل في عقد الود بين الصحب والآل"
 },
 "b304c385e": {
@@ -276,9 +286,9 @@
 "t": "صريح البيان في الرد على من خالف القرءان"
 },
 "b31304ba6": {
-"e": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
+"e": "HTTP Error 404: Not Found",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "مختصر المطالب الوفية في شرح العقيدة النسفية"
 },
 "b318464be": {
@@ -289,15 +299,16 @@
 "t": "الدر النضيد في أحكام التجويد"
 },
 "b31c7dba": {
-"e": "'ascii' codec can't encode characters in position 32-34: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 307971,
+"m": "mixed",
+"o": 1,
+"p": 345,
 "t": "نقل الإجماع الحاسم في بيان حكم الجهوي والمجسم"
 },
 "b32cea73d": {
-"e": "'ascii' codec can't encode characters in position 32-35: ordinal not in range(128)",
+"e": "notpdf",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "تحفة الأبرار في هجرة المختار"
 },
 "b33a374e9": {
@@ -338,7 +349,7 @@
 "b3955b2ce": {
 "e": "notpdf",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "حقيقة التصوف الإسلامي"
 },
 "b39f0b6b5": {
@@ -356,9 +367,10 @@
 "t": "مرشد 1"
 },
 "b3a81c576": {
-"e": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 39750,
+"m": "mixed",
+"o": 13,
+"p": 106,
 "t": "قواعد العشق الأربعون"
 },
 "b3b739489": {
@@ -390,9 +402,10 @@
 "t": "البرهان والإعتبار في الرد على من قال بفناء النار"
 },
 "b3cb66d81": {
-"e": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
-"m": "err",
-"r": 1,
+"b": 53384,
+"m": "ocr",
+"o": 95,
+"p": 95,
 "t": "الدقائق المحكمة في شرح المقدمة الجزرية في التجويد"
 },
 "b3d1b424f": {
@@ -501,9 +514,10 @@
 "t": "الدرر السنية في تنزيه الله عن كل صفات الجسمية"
 },
 "b4ca21b58": {
-"e": "'ascii' codec can't encode characters in position 32-43: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 172922,
+"m": "mixed",
+"o": 246,
+"p": 247,
 "t": "القاديانية: المؤامرة الدنيّة والعقيدة الكفرية"
 },
 "b4ccd4175": {
@@ -521,15 +535,16 @@
 "t": "مختصر عبد الله الهرري - مذهب الحنفي"
 },
 "b4e3e0c0a": {
-"e": "'ascii' codec can't encode characters in position 32-34: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 234117,
+"m": "mixed",
+"o": 1,
+"p": 370,
 "t": "درب السلامة في إرشادات العلامة (الجزء الأول)"
 },
 "b51525129": {
 "e": "notpdf",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "أدعية الحج والعمرة"
 },
 "b51676346": {
@@ -582,15 +597,17 @@
 "t": "عمدة الحنفية في معرفة الفروض والواجبات العينية"
 },
 "b57cdd7d3": {
-"e": "'ascii' codec can't encode characters in position 32-37: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 370541,
+"m": "mixed",
+"o": 12,
+"p": 593,
 "t": "الطريق النوراني بشرح عقيدة الحافظ ابن حجر العسقلاني"
 },
 "b5842a0d7": {
-"e": "'ascii' codec can't encode characters in position 48-50: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 225840,
+"m": "ocr",
+"o": 388,
+"p": 388,
 "t": "سبك المباني وسكب المعاني"
 },
 "b5a04527b": {
@@ -622,9 +639,10 @@
 "t": "ضياء القمرين في نجاة والدي الرسول الشريفين"
 },
 "b5d2e472d": {
-"e": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
-"m": "err",
-"r": 1,
+"b": 63298,
+"m": "ocr",
+"o": 146,
+"p": 146,
 "t": "تبيين ضلالات الألباني شيخ الوهابية"
 },
 "b5e3fa402": {
@@ -670,21 +688,24 @@
 "t": "فتاوى الألباني في ميزان الشريعة"
 },
 "b61e38992": {
-"e": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 35974,
+"m": "ocr",
+"o": 43,
+"p": 43,
 "t": "حقيقة التصوف الإسلامي"
 },
 "b623f57de": {
-"e": "'ascii' codec can't encode characters in position 51-56: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 147126,
+"m": "mixed",
+"o": 3,
+"p": 202,
 "t": "البدور الزواهر"
 },
 "b63274078": {
-"e": "'ascii' codec can't encode characters in position 32-34: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 282022,
+"m": "mixed",
+"o": 125,
+"p": 473,
 "t": "بحر الدلائل والأسرار"
 },
 "b647b7d7f": {
@@ -697,7 +718,7 @@
 "b6486ec30": {
 "e": "HTTP Error 404: Not Found",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "المولد الشريف (للشيخ الهرري)"
 },
 "b65de99e4": {
@@ -708,9 +729,10 @@
 "t": "الأطراف الحليمية من الأربعين الحديثية"
 },
 "b663681b5": {
-"e": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 128452,
+"m": "mixed",
+"o": 2,
+"p": 174,
 "t": "أحكام الفصول"
 },
 "b69293728": {
@@ -742,9 +764,10 @@
 "t": "أحاديث ليلة القدر من كتاب فضائل الأوقات"
 },
 "b6d98d15b": {
-"e": "'ascii' codec can't encode characters in position 51-57: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 285925,
+"m": "mixed",
+"o": 4,
+"p": 401,
 "t": "النفحات الإلهية"
 },
 "b6e2935ae": {
@@ -755,9 +778,10 @@
 "t": "الكوكب المنير بجواز الاحتفال بمولد الهادي البشير"
 },
 "b6e501ce7": {
-"e": "'ascii' codec can't encode characters in position 32-37: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 43602,
+"m": "mixed",
+"o": 4,
+"p": 44,
 "t": "أحاديث ليلة القدر"
 },
 "b6efd2144": {
@@ -775,9 +799,10 @@
 "t": "براءة الشيخ الحبشي (دفاع علمي)"
 },
 "b70b243ea": {
-"e": "'ascii' codec can't encode characters in position 32-39: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 84395,
+"m": "mixed",
+"o": 3,
+"p": 78,
 "t": "الأربعون العلياء في أحاديث المعراج والإسراء"
 },
 "b71d851cd": {
@@ -788,9 +813,10 @@
 "t": "الصواعق الجهبلية في الرد على المجسم ابن تيمية"
 },
 "b7235abf7": {
-"e": "'ascii' codec can't encode characters in position 32-38: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 202368,
+"m": "mixed",
+"o": 4,
+"p": 378,
 "t": "اللوامع الفردية شرح الكواكب الدرية"
 },
 "b730cdfcf": {
@@ -824,7 +850,7 @@
 "b7613c942": {
 "e": "HTTP Error 404: Not Found",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "شرح عقيدة العوام (لطارق اللحام)"
 },
 "b767c922": {
@@ -849,9 +875,10 @@
 "t": "إجماع الأئمة المجتهدين على أن المشبهة المجسمة غير مسلمين"
 },
 "b787dab48": {
-"e": "'ascii' codec can't encode characters in position 32-38: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 377448,
+"m": "mixed",
+"o": 4,
+"p": 549,
 "t": "الفرقان في تصحيح ما حُرّف تفسيره من آيات القرآن"
 },
 "b787eeb2e": {
@@ -862,9 +889,10 @@
 "t": "المُيَسَّر في التفسير المختصر من تفسير النسفي – المجلد الثاني"
 },
 "b791893ea": {
-"e": "'ascii' codec can't encode characters in position 32-38: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 56311,
+"m": "ocr",
+"o": 110,
+"p": 110,
 "t": "الإنفاق في سبيل الله تجارة رابحة"
 },
 "b792807ad": {
@@ -875,9 +903,10 @@
 "t": "مختصر سيرة النبي وأصحابه العشرة"
 },
 "b79e5210c": {
-"e": "'ascii' codec can't encode characters in position 32-38: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 409864,
+"m": "mixed",
+"o": 3,
+"p": 618,
 "t": "الفرقان في تصحيح ما حُرف من آيات القرآن (ج2)"
 },
 "b7a9ecdaf": {
@@ -888,9 +917,10 @@
 "t": "كتاب القناعة (لابن السني)"
 },
 "b7afe141": {
-"e": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 208195,
+"m": "mixed",
+"o": 3,
+"p": 416,
 "t": "الكشف الجلي لحقيقة المشبهة (ابن بطة وابن عبد البر والذهبي)"
 },
 "b7b27342a": {
@@ -908,9 +938,10 @@
 "t": "كيف تفسر الآيات المتشابهات"
 },
 "b7e9594a": {
-"e": "'ascii' codec can't encode characters in position 52-56: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 298545,
+"m": "mixed",
+"o": 3,
+"p": 302,
 "t": "إجماع الأئمة المجتهدين"
 },
 "b7fa30a1d": {
@@ -970,9 +1001,10 @@
 "t": "الدليل القويم على الصراط المستقيم"
 },
 "b86537b42": {
-"e": "'ascii' codec can't encode characters in position 32-35: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 146399,
+"m": "ocr",
+"o": 191,
+"p": 191,
 "t": "مريم والمسيح عليهما السلام في نص القرآن الصريح"
 },
 "b86687870": {
@@ -990,9 +1022,10 @@
 "t": "متن صغرى الصغرى (السنوسي)"
 },
 "b8a8313cc": {
-"e": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
-"m": "err",
-"r": 1,
+"b": 88969,
+"m": "mixed",
+"o": 4,
+"p": 149,
 "t": "الوهابيون تكفيريون شموليون"
 },
 "b8ac9dd46": {
@@ -1017,9 +1050,10 @@
 "t": "نور الأفئدة بشرح المرشدة"
 },
 "b8bcc548e": {
-"e": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
-"m": "err",
-"r": 1,
+"b": 45558,
+"m": "mixed",
+"o": 1,
+"p": 239,
 "t": "أقوال السّادة المالكية في تنزيه ربّ البريّة"
 },
 "b8c5ecaf": {
@@ -1163,9 +1197,10 @@
 "t": "متن الحفيدة (صغرى الصغرى) للسنوسي"
 },
 "b9bc9d15": {
-"e": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
-"m": "err",
-"r": 1,
+"b": 328504,
+"m": "mixed",
+"o": 1,
+"p": 461,
 "t": "نور الصراط المستقيم (شرح مبسط)"
 },
 "b9bca225b": {
@@ -1204,9 +1239,9 @@
 "t": "الجواهر والدرر على حلية البشر"
 },
 "ba0e37e3d": {
-"e": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
+"e": "notpdf",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "القول الرشيد في شرح عقيدة ابن دقيق العيد"
 },
 "ba1167adb": {
@@ -1259,9 +1294,10 @@
 "t": "مقصد الطالبين في علم العقيدة"
 },
 "ba625e50a": {
-"e": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 53646,
+"m": "mixed",
+"o": 80,
+"p": 81,
 "t": "رسالة استحسان الخوض في علم الكلام"
 },
 "ba6d75a97": {
@@ -1279,9 +1315,10 @@
 "t": "مختصر شعب الإيمان للقزويني"
 },
 "baa69ff09": {
-"e": "'ascii' codec can't encode characters in position 32-35: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 281012,
+"m": "ocr",
+"o": 396,
+"p": 396,
 "t": "إرشاد الأنام بشرح وصايا أبي حنيفة الإمام"
 },
 "babce8497": {
@@ -1292,15 +1329,17 @@
 "t": "الهجر والترك"
 },
 "bada4ed1c": {
-"e": "'ascii' codec can't encode characters in position 32-35: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 60273,
+"m": "ocr",
+"o": 91,
+"p": 91,
 "t": "لآلئ الكنون في إباحة الرقية وحمل الحروز"
 },
 "bafc752f6": {
-"e": "'ascii' codec can't encode characters in position 32-35: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 76904,
+"m": "ocr",
+"o": 154,
+"p": 154,
 "t": "كنوز الصحاح في الأعمال والأقوال (الملاح)"
 },
 "bafca9523": {
@@ -1367,9 +1406,10 @@
 "t": "جامع الخيرات من مجالس الشيخ عبد الله - الجزء الأول"
 },
 "bb984b899": {
-"e": "'ascii' codec can't encode characters in position 49-53: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 163779,
+"m": "mixed",
+"o": 3,
+"p": 203,
 "t": "أكحال العينين"
 },
 "bba634d84": {
@@ -1389,13 +1429,14 @@
 "bbb2b194": {
 "e": "notpdf",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "مرشد 4"
 },
 "bbb8fcffe": {
-"e": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 233584,
+"m": "mixed",
+"o": 3,
+"p": 224,
 "t": "تسهيل المعاني في حل ألفاظ جوهرة اللقاني"
 },
 "bbba44179": {
@@ -1420,9 +1461,10 @@
 "t": "قصص لا تليق بالأنبياء"
 },
 "bbc5295b9": {
-"e": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
-"m": "err",
-"r": 1,
+"b": 32543,
+"m": "ocr",
+"o": 97,
+"p": 97,
 "t": "جامع الرسائل الإيمانية في بيان العقيدة الإسلامية"
 },
 "bbcf5f9c7": {
@@ -1447,21 +1489,23 @@
 "t": "الردود العلمية جزء 3"
 },
 "bc073bc60": {
-"e": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 40925,
+"m": "mixed",
+"o": 1,
+"p": 38,
 "t": "جزءان حديثيان في فضل العشر من ذي الحجة"
 },
 "bc081aeb3": {
 "e": "notpdf",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "إعلام المسلمين ببطلان فتوى القرضاوي بتحريم التوسل"
 },
 "bc0b6b20d": {
-"e": "'ascii' codec can't encode characters in position 32-38: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 160344,
+"m": "ocr",
+"o": 244,
+"p": 244,
 "t": "التعليق المفيد على شرح جوهرة التوحيد"
 },
 "bc333422e": {
@@ -1472,9 +1516,9 @@
 "t": "الجماعات المتطرفة باسم الإسلام"
 },
 "bc42030f8": {
-"e": "'ascii' codec can't encode characters in position 32-37: ordinal not in range(128)",
+"e": "notpdf",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "النجوم الحسان على كتاب التبيان للنووي"
 },
 "bc4533ea2": {
@@ -1527,15 +1571,16 @@
 "t": "القول الجلي في حل ألفاظ مختصر عبد الله الهرري"
 },
 "bcb3b1180": {
-"e": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
-"m": "err",
-"r": 1,
+"b": 77093,
+"m": "ocr",
+"o": 143,
+"p": 143,
 "t": "إضاءة المنارة على صحة أو حسن حديث الزيارة"
 },
 "bcb54803b": {
 "e": "notpdf",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "التحذير الشرعي ممن خالف أهل السنة"
 },
 "bcbeb9bcd": {
@@ -1609,9 +1654,10 @@
 "t": "القلائد فيما أجمع عليه من العقائد"
 },
 "bd47c719d": {
-"e": "'ascii' codec can't encode characters in position 32-38: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 224164,
+"m": "mixed",
+"o": 1,
+"p": 286,
 "t": "الأسرار الجلية في فضل ومناقب الإمام الرفاعي (غوث الرفاعية)"
 },
 "bd49f0df2": {
@@ -1643,9 +1689,10 @@
 "t": "الدُّرر السَّنية من كنوز العقيدة السُّنية"
 },
 "bdaa2f3ac": {
-"e": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
-"m": "err",
-"r": 1,
+"b": 21700,
+"m": "ocr",
+"o": 65,
+"p": 65,
 "t": "قواعد مهمة (في عدم التسرع بتكفير الناس)"
 },
 "bdb140815": {
@@ -1698,9 +1745,10 @@
 "t": "المورد الهني في المولد السني (للعراقي)"
 },
 "be25d2aeb": {
-"e": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 55167,
+"m": "ocr",
+"o": 81,
+"p": 81,
 "t": "إمداد المحتاج إلى معرفة الإسراء والمعراج"
 },
 "be2f74d71": {
@@ -1727,7 +1775,7 @@
 "be420e0e3": {
 "e": "HTTP Error 404: Not Found",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "السرور والابتهاج في مزارات المعتمرين والحجاج"
 },
 "be51b0c26": {
@@ -1745,9 +1793,10 @@
 "t": "البحوث الحسان من صريح البيان"
 },
 "be57fae35": {
-"e": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 100836,
+"m": "mixed",
+"o": 3,
+"p": 151,
 "t": "السهم السديد في ضلالة تقسيم التوحيد"
 },
 "be5b90ff1": {
@@ -1779,9 +1828,10 @@
 "t": "قلائد الأئمة المرصعة بعقائد الأئمة الأربعة"
 },
 "be912819f": {
-"e": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
-"m": "err",
-"r": 1,
+"b": 381880,
+"m": "ocr",
+"o": 527,
+"p": 527,
 "t": "عمدة الراغب في مختصر بغية الطالب"
 },
 "be930a0c": {
@@ -1794,13 +1844,14 @@
 "bea0dd14a": {
 "e": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
 "m": "err",
-"r": 1,
+"r": 2,
 "t": "الإقناع في الرد على من عاند الإجماع"
 },
 "bea8c4a6e": {
-"e": "'ascii' codec can't encode characters in position 32-39: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 35841,
+"m": "mixed",
+"o": 2,
+"p": 46,
 "t": "الأربعون الزواهر في فضل شهر رمضان الباهر"
 },
 "beb61c331": {
@@ -1811,9 +1862,10 @@
 "t": "نور العيون في تلخيص سيرة الأمين المأمون"
 },
 "beba05ff7": {
-"e": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
-"m": "err",
-"r": 1,
+"b": 47908,
+"m": "ocr",
+"o": 86,
+"p": 86,
 "t": "كرامات الأولياء (للخلال)"
 },
 "bef0ef2a": {
@@ -1859,9 +1911,10 @@
 "t": "تهذيب بحث الخوارج والتيمية والوهابية والمودودية"
 },
 "bf11d1b": {
-"e": "'ascii' codec can't encode characters in position 32-38: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 111336,
+"m": "mixed",
+"o": 2,
+"p": 167,
 "t": "الأطراف الحليمية في الأربعين الحديثية"
 },
 "bf195573b": {
@@ -1872,9 +1925,10 @@
 "t": "تحذير الأمة من الطاعنين في النبي والسنة"
 },
 "bf2903fb1": {
-"e": "'ascii' codec can't encode characters in position 40-44: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 255563,
+"m": "mixed",
+"o": 2,
+"p": 257,
 "t": "إجماع الأئمة المجتهدين على أن المشبهة المجسمة غير مسلمين"
 },
 "bf65d6d2a": {
@@ -1927,9 +1981,10 @@
 "t": "جزء القراءة خلف الإمام (البخاري)"
 },
 "bfd5da5f": {
-"e": "'ascii' codec can't encode characters in position 32-38: ordinal not in range(128)",
-"m": "err",
-"r": 1,
+"b": 2451,
+"m": "mixed",
+"o": 1,
+"p": 4,
 "t": "المسلسل بيوم عيد الفطر"
 },
 "bfe3edb70": {
@@ -1961,8 +2016,8 @@
 "t": "بحر الدلائل والأسرار في التبرك بآثار النبي والصالحين"
 }
 },
-"bytes": 32044793,
-"count": 220,
-"updated": 1795659382,
-"version": 2
+"bytes": 40352592,
+"count": 275,
+"updated": 1795661159,
+"version": 3
 }
