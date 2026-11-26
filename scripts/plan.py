@@ -37,7 +37,7 @@ def main():
         e = man["books"].get(b["id"])
         if e is None or (e.get("m") == "err" and e.get("r", 0) < MAX_RETRY):
             todo.append(b)
-        elif e.get("m") in ("text", "mixed") and e.get("v", 1) < 3 and broken(b["id"]):
+        elif e.get("m") in ("text", "mixed") and e.get("v", 1) < 4 and broken(b["id"]):
             todo.append(b)
     if LIMIT: todo = todo[:LIMIT]
     os.makedirs("work", exist_ok=True)

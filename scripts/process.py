@@ -79,13 +79,14 @@ def process(book, outdir):
                 res = list(ex.map(lambda i: (i, ocr_page(pdf, i + 1, tmp)), need))
             for i, t in res:
                 t = clean(t)
-                if len(AR.findall(t)) > len(AR.findall(pages[i])): pages[i] = t
+                n_ocr, n_old = len(AR.findall(t)), len(AR.findall(pages[i]))
+                if n_ocr > n_old or (fragmented(pages[i]) and n_ocr >= 0.3 * n_old): pages[i] = t
         mode = "text" if not need else ("ocr" if len(need) == npages else "mixed")
         data = "\f".join(pages).encode("utf-8")
         gz = gzip.compress(data, 9)
         with open(os.path.join(outdir, "texts", book["id"] + ".txt.gz"), "wb") as f:
             f.write(gz)
-        meta = {"id": book["id"], "p": npages, "m": mode, "b": len(gz), "o": len(need), "rev": reversed_, "v": 3}
+        meta = {"id": book["id"], "p": npages, "m": mode, "b": len(gz), "o": len(need), "rev": reversed_, "v": 4}
     except Exception as e:
         meta = {"id": book["id"], "m": "err", "e": str(e)[:200]}
     finally:
