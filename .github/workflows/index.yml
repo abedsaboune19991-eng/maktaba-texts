@@ -28,6 +28,8 @@ jobs:
       has_work: ${{ steps.plan.outputs.has_work }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - id: plan
         env:
           LIMIT: ${{ github.event.inputs.limit || '0' }}
@@ -51,6 +53,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           sparse-checkout: scripts
       - uses: actions/download-artifact@v4
         with:
@@ -78,16 +81,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/download-artifact@v4
         with:
           pattern: out-*
           path: results/
       - name: Merge and commit
         run: |
-          python3 scripts/merge.py results
           git config user.name "maktaba-bot"
           git config user.email "maktaba-bot@users.noreply.github.com"
-          git add texts manifest.json
-          git diff --cached --quiet && exit 0
-          git commit -m "تحديث فهرس نصوص الكتب"
-          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python3 scripts/merge.py results
+            git add texts manifest.json
+            git diff --cached --quiet && exit 0
+            git commit -q -m "تحديث فهرس نصوص الكتب"
+            git push origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
