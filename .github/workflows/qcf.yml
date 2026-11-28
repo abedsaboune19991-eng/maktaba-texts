@@ -1,0 +1,23 @@
+name: Fetch QCF V1 word codes
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout: scripts
+      - run: mkdir -p qcf && cd qcf && python3 ../scripts/fetch_qcf.py
+      - name: Push
+        run: |
+          cd qcf && git init -q && git checkout -q -b qcf
+          git config user.name "maktaba-bot" && git config user.email "maktaba-bot@users.noreply.github.com"
+          git add . && git commit -q -m qcf
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" qcf
