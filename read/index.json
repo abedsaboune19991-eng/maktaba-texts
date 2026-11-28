@@ -1,11 +1,113 @@
 {
 "books": {
+"b12f3392": {
+"b": 0,
+"n": 71,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 63,
+"empty": 1,
+"short": 1,
+"single-letter": 6
+}
+},
+"b179961e4": {
+"b": 0,
+"n": 500,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 491,
+"empty": 2,
+"short": 7
+}
+},
+"b18b2a9bb": {
+"b": 0,
+"n": 1171,
+"ok": 0,
+"v": 1,
+"why": {
+"mark-run": 300,
+"single-letter": 871
+}
+},
+"b19cf56c3": {
+"b": 0,
+"n": 204,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 25,
+"empty": 1,
+"mark-start": 168,
+"short": 1,
+"single-letter": 9
+}
+},
+"b1a00cd96": {
+"b": 6401,
+"n": 289,
+"ok": 11,
+"v": 1,
+"why": {
+"badseq": 18,
+"empty": 1,
+"mark-after-nonletter": 223,
+"mark-start": 1,
+"single-letter": 32,
+"vocalized-noAT": 3
+}
+},
+"b1e3381a5": {
+"b": 1485,
+"n": 377,
+"ok": 4,
+"v": 1,
+"why": {
+"badseq": 257,
+"empty": 2,
+"mark-after-nonletter": 2,
+"mark-run": 4,
+"mark-start": 7,
+"short": 1,
+"single-letter": 80,
+"vocalized-noAT": 20
+}
+},
+"b1ef01d90": {
+"b": 0,
+"n": 15,
+"ok": 0,
+"v": 1,
+"why": {
+"empty": 1,
+"single-letter": 12,
+"vocalized-noAT": 2
+}
+},
 "b1feef6b4": {
 "b": 17347,
 "n": 2162,
 "ok": 20,
 "src": "pdf",
 "v": 1
+},
+"b2084747a": {
+"b": 0,
+"n": 337,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 146,
+"empty": 1,
+"mark-after-nonletter": 127,
+"mark-run": 14,
+"mark-start": 17,
+"short": 2,
+"single-letter": 30
+}
 },
 "b24395d50": {
 "b": 57472,
@@ -14,12 +116,149 @@
 "src": "docx",
 "v": 1
 },
+"b271a7b0a": {
+"b": 0,
+"n": 445,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 11,
+"short": 433
+}
+},
+"b28538bca": {
+"b": 0,
+"n": 316,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"short": 315
+}
+},
+"b286c1851": {
+"b": 3556,
+"n": 218,
+"ok": 10,
+"v": 1,
+"why": {
+"badseq": 116,
+"empty": 3,
+"mark-after-nonletter": 3,
+"mark-run": 3,
+"mark-start": 10,
+"single-letter": 53,
+"vocalized-noAT": 20
+}
+},
+"b29827ce6": {
+"b": 0,
+"n": 204,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 25,
+"empty": 1,
+"mark-start": 168,
+"short": 1,
+"single-letter": 9
+}
+},
+"b29aaddc8": {
+"b": 0,
+"n": 22,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 21,
+"short": 1
+}
+},
+"b29fbf87a": {
+"b": 1394,
+"n": 415,
+"ok": 5,
+"v": 1,
+"why": {
+"badseq": 45,
+"empty": 1,
+"mark-after-nonletter": 83,
+"mark-run": 7,
+"mark-start": 39,
+"short": 1,
+"single-letter": 231,
+"vocalized-noAT": 3
+}
+},
+"b2b88742c": {
+"b": 0,
+"n": 478,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 130,
+"empty": 7,
+"short": 341
+}
+},
 "b2c3d52": {
 "b": 328800,
 "n": 289,
 "ok": 283,
 "src": "docx",
 "v": 1
+},
+"b2ca5dd35": {
+"b": 4389,
+"n": 24,
+"ok": 5,
+"v": 1,
+"why": {
+"badseq": 3,
+"empty": 1,
+"mark-after-nonletter": 1,
+"mark-start": 3,
+"short": 7,
+"single-letter": 3,
+"vocalized-noAT": 1
+}
+},
+"b2f4951ef": {
+"b": 0,
+"n": 144,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 2,
+"empty": 1,
+"mark-start": 3,
+"short": 1,
+"single-letter": 137
+}
+},
+"b304c385e": {
+"b": 0,
+"n": 174,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 60,
+"short": 114
+}
+},
+"b31c7dba": {
+"b": 241436,
+"n": 345,
+"ok": 289,
+"v": 1,
+"why": {
+"badseq": 3,
+"empty": 1,
+"letters-mismatch": 1,
+"mark-after-nonletter": 50,
+"mark-run": 1
+}
 },
 "b32d8790f": {
 "b": 44307,
@@ -28,12 +267,142 @@
 "src": "pdf",
 "v": 1
 },
+"b33a374e9": {
+"b": 34475,
+"n": 132,
+"ok": 75,
+"v": 1,
+"why": {
+"empty": 3,
+"mark-after-nonletter": 7,
+"mark-run": 2,
+"single-letter": 45
+}
+},
+"b3644f8ac": {
+"b": 0,
+"n": 4,
+"ok": 0,
+"v": 1,
+"why": {
+"single-letter": 4
+}
+},
+"b384838e": {
+"b": 0,
+"n": 982,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 2,
+"short": 979
+}
+},
 "b395ad7bb": {
 "b": 62212,
 "n": 228,
 "ok": 102,
 "src": "pdf",
 "v": 1
+},
+"b3a81c576": {
+"b": 549,
+"n": 106,
+"ok": 1,
+"v": 1,
+"why": {
+"badseq": 23,
+"empty": 2,
+"mark-start": 50,
+"short": 11,
+"single-letter": 19
+}
+},
+"b3bd39f08": {
+"b": 0,
+"n": 23,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 23
+}
+},
+"b3c77a2d7": {
+"b": 0,
+"n": 99,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 38,
+"empty": 3,
+"short": 52,
+"single-letter": 6
+}
+},
+"b3d80cbe9": {
+"b": 0,
+"n": 143,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 2,
+"mark-start": 3,
+"short": 1,
+"single-letter": 137
+}
+},
+"b4070f7c2": {
+"b": 18750,
+"n": 195,
+"ok": 29,
+"v": 1,
+"why": {
+"badseq": 2,
+"empty": 1,
+"mark-after-nonletter": 99,
+"mark-run": 9,
+"mark-start": 1,
+"single-letter": 53,
+"vocalized-noAT": 1
+}
+},
+"b41255d7e": {
+"b": 0,
+"n": 1065,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 324,
+"mark-after-nonletter": 2,
+"mark-run": 27,
+"short": 1,
+"single-letter": 389,
+"vocalized-noAT": 322
+}
+},
+"b44d95e97": {
+"b": 0,
+"n": 848,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 845,
+"mark-start": 1,
+"short": 1,
+"vocalized-noAT": 1
+}
+},
+"b463f4a80": {
+"b": 0,
+"n": 100,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 1,
+"short": 98
+}
 },
 "b4a1cdf4e": {
 "b": 142503,
@@ -49,12 +418,219 @@
 "src": "docx",
 "v": 1
 },
+"b4c39d80c": {
+"b": 28778,
+"n": 257,
+"ok": 43,
+"v": 1,
+"why": {
+"badseq": 3,
+"empty": 2,
+"mark-after-nonletter": 76,
+"single-letter": 131,
+"vocalized-noAT": 2
+}
+},
+"b4ca21b58": {
+"b": 0,
+"n": 247,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 4,
+"short": 242
+}
+},
+"b4ccd4175": {
+"b": 0,
+"n": 668,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 526,
+"empty": 3,
+"mark-after-nonletter": 41,
+"mark-run": 4,
+"mark-start": 3,
+"short": 3,
+"single-letter": 82,
+"vocalized-noAT": 6
+}
+},
+"b51676346": {
+"b": 0,
+"n": 192,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 1,
+"short": 190
+}
+},
+"b5172ea25": {
+"b": 8412,
+"n": 121,
+"ok": 28,
+"v": 1,
+"why": {
+"badseq": 4,
+"empty": 1,
+"mark-after-nonletter": 55,
+"mark-run": 1,
+"single-letter": 21,
+"vocalized-noAT": 11
+}
+},
+"b56e8c0d2": {
+"b": 0,
+"n": 311,
+"ok": 0,
+"v": 1,
+"why": {
+"mark-run": 14,
+"single-letter": 297
+}
+},
+"b57cdd7d3": {
+"b": 5035,
+"n": 593,
+"ok": 12,
+"v": 1,
+"why": {
+"badseq": 190,
+"empty": 1,
+"mark-run": 1,
+"mark-start": 347,
+"mixed-token": 1,
+"short": 9,
+"single-letter": 32
+}
+},
+"b5a04527b": {
+"b": 0,
+"n": 47,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 7,
+"empty": 2,
+"mark-start": 31,
+"short": 2,
+"single-letter": 5
+}
+},
+"b5a4ddda": {
+"b": 0,
+"n": 198,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 1,
+"short": 196
+}
+},
+"b5a5f9755": {
+"b": 6821,
+"n": 676,
+"ok": 16,
+"v": 1,
+"why": {
+"badseq": 178,
+"empty": 18,
+"mark-start": 405,
+"short": 6,
+"single-letter": 51,
+"vocalized-noAT": 2
+}
+},
 "b5c444a8c": {
 "b": 235552,
 "n": 346,
 "ok": 342,
 "src": "docx",
 "v": 1
+},
+"b5cebbe62": {
+"b": 483,
+"n": 175,
+"ok": 2,
+"v": 1,
+"why": {
+"badseq": 19,
+"empty": 1,
+"mark-start": 135,
+"short": 1,
+"single-letter": 17
+}
+},
+"b5e3fa402": {
+"b": 16378,
+"n": 115,
+"ok": 22,
+"v": 1,
+"why": {
+"badseq": 18,
+"mark-after-nonletter": 13,
+"short": 1,
+"single-letter": 61
+}
+},
+"b6031f722": {
+"b": 0,
+"n": 326,
+"ok": 0,
+"v": 1,
+"why": {
+"empty": 16,
+"short": 309,
+"single-letter": 1
+}
+},
+"b6106452b": {
+"b": 112023,
+"n": 549,
+"ok": 171,
+"v": 1,
+"why": {
+"badseq": 22,
+"empty": 2,
+"letters-mismatch": 1,
+"mark-after-nonletter": 29,
+"mark-run": 1,
+"short": 2,
+"single-letter": 316,
+"vocalized-noAT": 5
+}
+},
+"b61cbba65": {
+"b": 4493,
+"n": 491,
+"ok": 21,
+"v": 1,
+"why": {
+"badseq": 47,
+"empty": 2,
+"mark-start": 377,
+"short": 9,
+"single-letter": 34,
+"vocalized-noAT": 1
+}
+},
+"b623f57de": {
+"b": 2165,
+"n": 202,
+"ok": 3,
+"v": 1,
+"why": {
+"badseq": 16,
+"empty": 2,
+"mark-start": 154,
+"short": 1,
+"single-letter": 26
+}
 },
 "b624a0bad": {
 "b": 474171,
@@ -63,11 +639,275 @@
 "src": "docx",
 "v": 1
 },
+"b63274078": {
+"b": 4308,
+"n": 473,
+"ok": 9,
+"v": 1,
+"why": {
+"badseq": 190,
+"empty": 1,
+"letters-mismatch": 2,
+"mark-start": 117,
+"mixed-token": 3,
+"short": 146,
+"single-letter": 5
+}
+},
+"b65de99e4": {
+"b": 0,
+"n": 166,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 88,
+"mark-after-nonletter": 7,
+"mark-run": 9,
+"mark-start": 13,
+"short": 1,
+"single-letter": 48
+}
+},
+"b663681b5": {
+"b": 52140,
+"n": 174,
+"ok": 82,
+"v": 1,
+"why": {
+"badseq": 4,
+"empty": 1,
+"mark-after-nonletter": 22,
+"mark-run": 1,
+"short": 1,
+"single-letter": 61,
+"vocalized-noAT": 2
+}
+},
+"b69293728": {
+"b": 339,
+"n": 100,
+"ok": 1,
+"v": 1,
+"why": {
+"badseq": 39,
+"mark-start": 49,
+"short": 7,
+"single-letter": 4
+}
+},
+"b69bc870c": {
+"b": 42371,
+"n": 421,
+"ok": 378,
+"v": 1,
+"why": {
+"mark-after-nonletter": 4,
+"short": 3,
+"single-letter": 33,
+"vocalized-noAT": 3
+}
+},
+"b6ac1a2fa": {
+"b": 5475,
+"n": 91,
+"ok": 11,
+"v": 1,
+"why": {
+"badseq": 14,
+"empty": 1,
+"mark-after-nonletter": 52,
+"single-letter": 11,
+"vocalized-noAT": 2
+}
+},
 "b6b956e9b": {
 "n": 298,
 "ok": 0,
 "src": "pdf",
 "v": 1
+},
+"b6d6e51ad": {
+"b": 0,
+"n": 44,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 30,
+"empty": 1,
+"mark-start": 2,
+"short": 3,
+"single-letter": 8
+}
+},
+"b6d98d15b": {
+"b": 614,
+"n": 401,
+"ok": 1,
+"v": 1,
+"why": {
+"badseq": 48,
+"empty": 3,
+"mark-start": 335,
+"single-letter": 14
+}
+},
+"b6e2935ae": {
+"b": 48740,
+"n": 153,
+"ok": 82,
+"v": 1,
+"why": {
+"badseq": 4,
+"empty": 1,
+"mark-after-nonletter": 26,
+"mark-run": 2,
+"short": 2,
+"single-letter": 36
+}
+},
+"b6e501ce7": {
+"b": 0,
+"n": 44,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 30,
+"empty": 1,
+"mark-start": 2,
+"short": 3,
+"single-letter": 8
+}
+},
+"b7044c1bb": {
+"b": 24502,
+"n": 770,
+"ok": 53,
+"v": 1,
+"why": {
+"badseq": 32,
+"empty": 4,
+"mark-after-nonletter": 3,
+"mark-run": 6,
+"mark-start": 11,
+"short": 632,
+"single-letter": 25,
+"vocalized-noAT": 4
+}
+},
+"b70b243ea": {
+"b": 3490,
+"n": 78,
+"ok": 4,
+"v": 1,
+"why": {
+"badseq": 3,
+"empty": 2,
+"mark-after-nonletter": 44,
+"mark-run": 2,
+"short": 1,
+"single-letter": 22
+}
+},
+"b7235abf7": {
+"b": 1486,
+"n": 378,
+"ok": 4,
+"v": 1,
+"why": {
+"badseq": 257,
+"empty": 3,
+"mark-after-nonletter": 2,
+"mark-run": 4,
+"mark-start": 7,
+"short": 1,
+"single-letter": 80,
+"vocalized-noAT": 20
+}
+},
+"b730cdfcf": {
+"b": 192,
+"n": 73,
+"ok": 3,
+"v": 1,
+"why": {
+"badseq": 13,
+"empty": 4,
+"mark-start": 42,
+"mixed-token": 1,
+"short": 5,
+"single-letter": 5
+}
+},
+"b74667875": {
+"b": 4838,
+"n": 33,
+"ok": 9,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 2,
+"mark-after-nonletter": 16,
+"short": 1,
+"single-letter": 3,
+"vocalized-noAT": 1
+}
+},
+"b75cb7102": {
+"b": 0,
+"n": 47,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 7,
+"empty": 2,
+"mark-start": 31,
+"short": 2,
+"single-letter": 5
+}
+},
+"b75e4440": {
+"b": 19131,
+"n": 152,
+"ok": 48,
+"v": 1,
+"why": {
+"badseq": 2,
+"empty": 1,
+"mark-after-nonletter": 34,
+"mark-run": 1,
+"short": 1,
+"single-letter": 60,
+"vocalized-noAT": 5
+}
+},
+"b78793fa": {
+"b": 9583,
+"n": 288,
+"ok": 14,
+"v": 1,
+"why": {
+"badseq": 2,
+"empty": 2,
+"mark-after-nonletter": 185,
+"single-letter": 78,
+"vocalized-noAT": 7
+}
+},
+"b787dab48": {
+"b": 112023,
+"n": 549,
+"ok": 171,
+"v": 1,
+"why": {
+"badseq": 22,
+"empty": 2,
+"letters-mismatch": 1,
+"mark-after-nonletter": 29,
+"mark-run": 1,
+"short": 2,
+"single-letter": 316,
+"vocalized-noAT": 5
+}
 },
 "b787eeb2e": {
 "b": 702253,
@@ -76,11 +916,102 @@
 "src": "pdf",
 "v": 1
 },
+"b79e5210c": {
+"b": 124231,
+"n": 618,
+"ok": 204,
+"v": 1,
+"why": {
+"badseq": 51,
+"empty": 1,
+"mark-after-nonletter": 60,
+"mark-start": 1,
+"mixed-token": 25,
+"short": 2,
+"single-letter": 257,
+"vocalized-noAT": 17
+}
+},
+"b7afe141": {
+"b": 1394,
+"n": 416,
+"ok": 5,
+"v": 1,
+"why": {
+"badseq": 45,
+"empty": 2,
+"mark-after-nonletter": 83,
+"mark-run": 7,
+"mark-start": 39,
+"short": 1,
+"single-letter": 231,
+"vocalized-noAT": 3
+}
+},
+"b7b27342a": {
+"b": 7518,
+"n": 43,
+"ok": 8,
+"v": 1,
+"why": {
+"badseq": 18,
+"empty": 1,
+"mark-after-nonletter": 1,
+"single-letter": 15
+}
+},
 "b7bf8b912": {
 "n": 310,
 "ok": 0,
 "src": "pdf",
 "v": 1
+},
+"b7e9594a": {
+"b": 0,
+"n": 302,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 32,
+"empty": 3,
+"mark-start": 231,
+"single-letter": 36
+}
+},
+"b7fa30a1d": {
+"b": 0,
+"n": 104,
+"ok": 0,
+"v": 1,
+"why": {
+"single-letter": 104
+}
+},
+"b82d8c427": {
+"b": 0,
+"n": 75,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 29,
+"short": 43,
+"single-letter": 3
+}
+},
+"b8466bdac": {
+"b": 0,
+"n": 167,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 88,
+"empty": 1,
+"mark-after-nonletter": 7,
+"mark-run": 9,
+"mark-start": 13,
+"short": 1,
+"single-letter": 48
+}
 },
 "b850cf60c": {
 "b": 642514,
@@ -102,12 +1033,469 @@
 "src": "docx",
 "v": 1
 },
+"b8a8313cc": {
+"b": 9889,
+"n": 149,
+"ok": 23,
+"v": 1,
+"why": {
+"badseq": 103,
+"empty": 2,
+"mark-after-nonletter": 2,
+"mark-start": 3,
+"short": 2,
+"single-letter": 9,
+"vocalized-noAT": 5
+}
+},
+"b8ac9dd46": {
+"b": 3917,
+"n": 65,
+"ok": 10,
+"v": 1,
+"why": {
+"badseq": 7,
+"empty": 1,
+"mark-after-nonletter": 32,
+"mark-start": 1,
+"single-letter": 12,
+"vocalized-noAT": 2
+}
+},
+"b8bcc548e": {
+"b": 0,
+"n": 239,
+"ok": 0,
+"v": 1,
+"why": {
+"empty": 1,
+"mark-after-nonletter": 1,
+"mark-start": 30,
+"single-letter": 5,
+"vocalized-noAT": 202
+}
+},
+"b8dd7980e": {
+"b": 124231,
+"n": 618,
+"ok": 204,
+"v": 1,
+"why": {
+"badseq": 51,
+"empty": 1,
+"mark-after-nonletter": 60,
+"mark-start": 1,
+"mixed-token": 25,
+"short": 2,
+"single-letter": 257,
+"vocalized-noAT": 17
+}
+},
+"b8e6e867a": {
+"b": 0,
+"n": 42,
+"ok": 0,
+"v": 1,
+"why": {
+"mark-run": 3,
+"single-letter": 39
+}
+},
+"b8f43384b": {
+"b": 7206,
+"n": 287,
+"ok": 14,
+"v": 1,
+"why": {
+"badseq": 20,
+"empty": 5,
+"mark-after-nonletter": 187,
+"mark-run": 2,
+"short": 4,
+"single-letter": 54,
+"vocalized-noAT": 1
+}
+},
+"b9330a5e9": {
+"b": 5042,
+"n": 107,
+"ok": 8,
+"v": 1,
+"why": {
+"badseq": 88,
+"empty": 1,
+"letters-mismatch": 2,
+"mark-after-nonletter": 3,
+"single-letter": 5
+}
+},
+"b93ca9094": {
+"b": 20796,
+"n": 71,
+"ok": 41,
+"v": 1,
+"why": {
+"empty": 2,
+"mark-start": 16,
+"short": 4,
+"single-letter": 8
+}
+},
+"b9402fc5e": {
+"b": 0,
+"n": 628,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 1,
+"short": 626
+}
+},
+"b94ae4dfb": {
+"b": 0,
+"n": 65,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 2,
+"short": 62
+}
+},
+"b953e5a3b": {
+"b": 4768,
+"n": 602,
+"ok": 13,
+"v": 1,
+"why": {
+"badseq": 11,
+"empty": 4,
+"mark-start": 296,
+"short": 233,
+"single-letter": 34,
+"vocalized-noAT": 11
+}
+},
+"b954e2224": {
+"b": 0,
+"n": 612,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 2,
+"short": 609
+}
+},
+"b9bca225b": {
+"b": 2452,
+"n": 203,
+"ok": 4,
+"v": 1,
+"why": {
+"badseq": 43,
+"empty": 1,
+"mark-start": 113,
+"short": 2,
+"single-letter": 40
+}
+},
+"b9c240789": {
+"b": 614,
+"n": 401,
+"ok": 1,
+"v": 1,
+"why": {
+"badseq": 48,
+"empty": 3,
+"mark-start": 335,
+"single-letter": 14
+}
+},
+"b9dc28ec6": {
+"b": 0,
+"n": 720,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 1,
+"short": 718
+}
+},
+"ba1ea9ddc": {
+"b": 0,
+"n": 129,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 17,
+"empty": 3,
+"mark-start": 96,
+"short": 6,
+"single-letter": 7
+}
+},
+"ba4087b9c": {
+"b": 0,
+"n": 341,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 111,
+"short": 224,
+"single-letter": 6
+}
+},
+"ba4bbbeca": {
+"b": 0,
+"n": 65,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 28,
+"empty": 1,
+"mark-start": 34,
+"short": 2
+}
+},
+"ba625e50a": {
+"b": 0,
+"n": 81,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 1,
+"short": 79
+}
+},
+"babce8497": {
+"b": 0,
+"n": 35,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 2,
+"mark-start": 24,
+"short": 1,
+"single-letter": 7
+}
+},
+"bb1f376de": {
+"b": 29235,
+"n": 136,
+"ok": 44,
+"v": 1,
+"why": {
+"badseq": 2,
+"empty": 2,
+"mark-after-nonletter": 30,
+"mark-start": 1,
+"single-letter": 48,
+"vocalized-noAT": 9
+}
+},
+"bb2087750": {
+"b": 19131,
+"n": 152,
+"ok": 48,
+"v": 1,
+"why": {
+"badseq": 2,
+"empty": 1,
+"mark-after-nonletter": 34,
+"mark-run": 1,
+"short": 1,
+"single-letter": 60,
+"vocalized-noAT": 5
+}
+},
+"bb33983c0": {
+"b": 2068,
+"n": 80,
+"ok": 6,
+"v": 1,
+"why": {
+"badseq": 17,
+"mark-start": 2,
+"single-letter": 51,
+"vocalized-noAT": 4
+}
+},
 "bb5c213f7": {
 "b": 576085,
 "n": 646,
 "ok": 625,
 "src": "pdf",
 "v": 1
+},
+"bb5f5836a": {
+"b": 7196,
+"n": 341,
+"ok": 13,
+"v": 1,
+"why": {
+"badseq": 259,
+"empty": 6,
+"mark-after-nonletter": 22,
+"mark-run": 2,
+"short": 4,
+"single-letter": 35
+}
+},
+"bb8eb0157": {
+"b": 0,
+"n": 394,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"short": 393
+}
+},
+"bb984b899": {
+"b": 2452,
+"n": 203,
+"ok": 4,
+"v": 1,
+"why": {
+"badseq": 43,
+"empty": 1,
+"mark-start": 113,
+"short": 2,
+"single-letter": 40
+}
+},
+"bbb8fcffe": {
+"b": 7426,
+"n": 224,
+"ok": 10,
+"v": 1,
+"why": {
+"badseq": 129,
+"empty": 1,
+"mark-after-nonletter": 41,
+"mark-run": 6,
+"mark-start": 3,
+"short": 2,
+"single-letter": 32
+}
+},
+"bbbe7f6b0": {
+"b": 106084,
+"n": 286,
+"ok": 140,
+"v": 1,
+"why": {
+"badseq": 46,
+"empty": 1,
+"mark-after-nonletter": 13,
+"mark-run": 1,
+"single-letter": 83,
+"vocalized-noAT": 2
+}
+},
+"bbc01783a": {
+"b": 42312,
+"n": 309,
+"ok": 69,
+"v": 1,
+"why": {
+"badseq": 7,
+"mark-after-nonletter": 2,
+"mark-run": 3,
+"short": 1,
+"single-letter": 227
+}
+},
+"bbcf5f9c7": {
+"b": 4334,
+"n": 94,
+"ok": 11,
+"v": 1,
+"why": {
+"badseq": 3,
+"empty": 1,
+"mark-after-nonletter": 52,
+"single-letter": 18,
+"vocalized-noAT": 9
+}
+},
+"bbd8657d6": {
+"b": 0,
+"n": 11,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 11
+}
+},
+"bbf1d58dd": {
+"b": 0,
+"n": 99,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 37,
+"empty": 3,
+"short": 52,
+"single-letter": 7
+}
+},
+"bc073bc60": {
+"b": 0,
+"n": 38,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 35,
+"mark-run": 2,
+"short": 1
+}
+},
+"bc333422e": {
+"b": 1160,
+"n": 378,
+"ok": 3,
+"v": 1,
+"why": {
+"badseq": 35,
+"empty": 2,
+"mark-start": 308,
+"mixed-token": 1,
+"short": 1,
+"single-letter": 28
+}
+},
+"bc5c93061": {
+"b": 241436,
+"n": 345,
+"ok": 289,
+"v": 1,
+"why": {
+"badseq": 3,
+"empty": 1,
+"letters-mismatch": 1,
+"mark-after-nonletter": 50,
+"mark-run": 1
+}
+},
+"bc90eddce": {
+"b": 3490,
+"n": 78,
+"ok": 4,
+"v": 1,
+"why": {
+"badseq": 3,
+"empty": 2,
+"mark-after-nonletter": 44,
+"mark-run": 2,
+"short": 1,
+"single-letter": 22
+}
 },
 "bcbbb30ee": {
 "b": 71426,
@@ -116,17 +1504,147 @@
 "src": "docx",
 "v": 1
 },
+"bcd2807c3": {
+"b": 0,
+"n": 247,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 4,
+"short": 242
+}
+},
+"bce0cc465": {
+"b": 0,
+"n": 159,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 147,
+"empty": 2,
+"mark-start": 10
+}
+},
+"bd004aa43": {
+"b": 6955,
+"n": 96,
+"ok": 8,
+"v": 1,
+"why": {
+"badseq": 3,
+"mark-after-nonletter": 39,
+"mark-run": 2,
+"mark-start": 18,
+"short": 1,
+"single-letter": 20,
+"vocalized-noAT": 5
+}
+},
+"bd18bb52": {
+"b": 0,
+"n": 173,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 113,
+"mixed-token": 12,
+"short": 22,
+"single-letter": 26
+}
+},
+"bd2595f84": {
+"b": 36100,
+"n": 770,
+"ok": 74,
+"v": 1,
+"why": {
+"badseq": 3,
+"empty": 4,
+"mark-after-nonletter": 30,
+"mixed-token": 1,
+"short": 532,
+"single-letter": 123,
+"vocalized-noAT": 3
+}
+},
 "bd3fcd95b": {
 "n": 88,
 "ok": 0,
 "src": "pdf",
 "v": 1
 },
+"bd40d3bb9": {
+"b": 4838,
+"n": 32,
+"ok": 9,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 1,
+"mark-after-nonletter": 16,
+"short": 1,
+"single-letter": 3,
+"vocalized-noAT": 1
+}
+},
+"bd47c719d": {
+"b": 106084,
+"n": 286,
+"ok": 140,
+"v": 1,
+"why": {
+"badseq": 46,
+"empty": 1,
+"mark-after-nonletter": 13,
+"mark-run": 1,
+"single-letter": 83,
+"vocalized-noAT": 2
+}
+},
 "bd68322c8": {
 "n": 183,
 "ok": 0,
 "src": "pdf",
 "v": 1
+},
+"bd9b5d2d": {
+"b": 1640,
+"n": 86,
+"ok": 6,
+"v": 1,
+"why": {
+"badseq": 55,
+"empty": 5,
+"letters-mismatch": 1,
+"mark-after-nonletter": 6,
+"mark-run": 4,
+"short": 9
+}
+},
+"bda6f6734": {
+"b": 0,
+"n": 47,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 17,
+"short": 2,
+"single-letter": 26,
+"vocalized-noAT": 2
+}
+},
+"bdb88e9cf": {
+"b": 0,
+"n": 437,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 1,
+"short": 434,
+"vocalized-noAT": 1
+}
 },
 "bdbe62c89": {
 "b": 17448,
@@ -135,6 +1653,45 @@
 "src": "docx",
 "v": 1
 },
+"be0464440": {
+"b": 1443,
+"n": 256,
+"ok": 3,
+"v": 1,
+"why": {
+"badseq": 27,
+"empty": 4,
+"mark-start": 190,
+"mixed-token": 1,
+"short": 14,
+"single-letter": 17
+}
+},
+"be1ab6c2d": {
+"b": 5042,
+"n": 107,
+"ok": 8,
+"v": 1,
+"why": {
+"badseq": 88,
+"empty": 1,
+"letters-mismatch": 2,
+"mark-after-nonletter": 3,
+"single-letter": 5
+}
+},
+"be3008d5d": {
+"b": 0,
+"n": 98,
+"ok": 0,
+"v": 1,
+"why": {
+"empty": 2,
+"short": 87,
+"single-letter": 3,
+"vocalized-noAT": 6
+}
+},
 "be37f1a08": {
 "b": 9280,
 "n": 21,
@@ -142,13 +1699,322 @@
 "src": "docx",
 "v": 1
 },
+"be3a77d3a": {
+"b": 52140,
+"n": 174,
+"ok": 82,
+"v": 1,
+"why": {
+"badseq": 4,
+"empty": 1,
+"mark-after-nonletter": 22,
+"mark-run": 1,
+"short": 1,
+"single-letter": 61,
+"vocalized-noAT": 2
+}
+},
+"be51b0c26": {
+"b": 0,
+"n": 37,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 32,
+"empty": 3,
+"single-letter": 2
+}
+},
+"be52d00e": {
+"b": 248,
+"n": 135,
+"ok": 1,
+"v": 1,
+"why": {
+"badseq": 1,
+"short": 133
+}
+},
+"be57fae35": {
+"b": 307,
+"n": 151,
+"ok": 1,
+"v": 1,
+"why": {
+"badseq": 141,
+"empty": 2,
+"mark-start": 6,
+"short": 1
+}
+},
+"be5b90ff1": {
+"b": 0,
+"n": 393,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 1,
+"short": 391
+}
+},
+"be5c4e1ca": {
+"b": 217,
+"n": 152,
+"ok": 1,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 2,
+"mark-after-nonletter": 26,
+"mark-start": 119,
+"short": 1,
+"single-letter": 1,
+"vocalized-noAT": 1
+}
+},
+"be6793d64": {
+"b": 1351,
+"n": 193,
+"ok": 3,
+"v": 1,
+"why": {
+"badseq": 15,
+"empty": 1,
+"mark-start": 155,
+"mixed-token": 1,
+"short": 10,
+"single-letter": 8
+}
+},
+"be7f468db": {
+"b": 30846,
+"n": 717,
+"ok": 62,
+"v": 1,
+"why": {
+"badseq": 534,
+"mark-after-nonletter": 2,
+"mark-start": 81,
+"mixed-token": 1,
+"single-letter": 28,
+"vocalized-noAT": 9
+}
+},
 "be92ba8b6": {
 "b": 2626,
 "n": 11,
 "ok": 11,
 "src": "docx",
 "v": 1
+},
+"be930a0c": {
+"b": 0,
+"n": 103,
+"ok": 0,
+"v": 1,
+"why": {
+"empty": 1,
+"mark-run": 1,
+"short": 101
 }
 },
-"updated": 1795857077
+"bea8c4a6e": {
+"b": 0,
+"n": 46,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 31,
+"empty": 2,
+"mark-after-nonletter": 1,
+"mark-run": 3,
+"single-letter": 8,
+"vocalized-noAT": 1
+}
+},
+"beb61c331": {
+"b": 1930,
+"n": 65,
+"ok": 5,
+"v": 1,
+"why": {
+"badseq": 5,
+"empty": 2,
+"mark-after-nonletter": 47,
+"single-letter": 6
+}
+},
+"befb32aa2": {
+"b": 0,
+"n": 65,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 1,
+"empty": 2,
+"short": 62
+}
+},
+"bf0577887": {
+"b": 34475,
+"n": 132,
+"ok": 75,
+"v": 1,
+"why": {
+"empty": 3,
+"mark-after-nonletter": 7,
+"mark-run": 2,
+"single-letter": 45
+}
+},
+"bf10912d0": {
+"b": 2157,
+"n": 313,
+"ok": 6,
+"v": 1,
+"why": {
+"badseq": 147,
+"empty": 5,
+"mark-start": 145,
+"mixed-token": 1,
+"single-letter": 8,
+"vocalized-noAT": 1
+}
+},
+"bf11d1b": {
+"b": 0,
+"n": 167,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 88,
+"empty": 1,
+"mark-after-nonletter": 7,
+"mark-run": 9,
+"mark-start": 13,
+"short": 1,
+"single-letter": 48
+}
+},
+"bf195573b": {
+"b": 29235,
+"n": 136,
+"ok": 44,
+"v": 1,
+"why": {
+"badseq": 2,
+"empty": 2,
+"mark-after-nonletter": 30,
+"mark-start": 1,
+"single-letter": 48,
+"vocalized-noAT": 9
+}
+},
+"bf2903fb1": {
+"b": 9094,
+"n": 257,
+"ok": 14,
+"v": 1,
+"why": {
+"badseq": 3,
+"empty": 2,
+"mark-after-nonletter": 162,
+"mark-run": 2,
+"single-letter": 74
+}
+},
+"bf65d6d2a": {
+"b": 0,
+"n": 124,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 2,
+"short": 122
+}
+},
+"bf68eae01": {
+"b": 1678,
+"n": 399,
+"ok": 3,
+"v": 1,
+"why": {
+"badseq": 272,
+"empty": 5,
+"mark-after-nonletter": 1,
+"mark-run": 3,
+"mark-start": 9,
+"short": 1,
+"single-letter": 88,
+"vocalized-noAT": 17
+}
+},
+"bfc715df1": {
+"b": 9583,
+"n": 288,
+"ok": 14,
+"v": 1,
+"why": {
+"badseq": 2,
+"empty": 2,
+"mark-after-nonletter": 185,
+"single-letter": 78,
+"vocalized-noAT": 7
+}
+},
+"bfd5da5f": {
+"b": 0,
+"n": 4,
+"ok": 0,
+"v": 1,
+"why": {
+"empty": 1,
+"single-letter": 3
+}
+},
+"bfec198ad": {
+"b": 11028,
+"n": 182,
+"ok": 24,
+"v": 1,
+"why": {
+"badseq": 130,
+"empty": 3,
+"mark-after-nonletter": 4,
+"mark-start": 4,
+"short": 1,
+"single-letter": 13,
+"vocalized-noAT": 3
+}
+},
+"bfef20fba": {
+"b": 0,
+"n": 478,
+"ok": 0,
+"v": 1,
+"why": {
+"badseq": 452,
+"empty": 7,
+"mark-start": 18,
+"single-letter": 1
+}
+},
+"bffff4b9a": {
+"b": 4308,
+"n": 473,
+"ok": 9,
+"v": 1,
+"why": {
+"badseq": 190,
+"empty": 1,
+"letters-mismatch": 2,
+"mark-start": 117,
+"mixed-token": 3,
+"short": 146,
+"single-letter": 5
+}
+}
+},
+"updated": 1795857326
 }
